@@ -3,7 +3,7 @@ import pandas as pd
 st.title("Streamlit  Widgets")
 # 1. 把 Widgets 放到側邊欄 (sidebar)
 with st.sidebar:
-st.header("這邊是側邊欄")
+    st.header("這邊是側邊欄")
 
 # 選擇框(Selectbox)
 option = st.selectbox(
